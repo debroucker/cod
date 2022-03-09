@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        TITTLE
+    </title>
+    <style>
+        div.items table {display: none}
+        div.items table:target {display: block}
+        a {margin: 50px}
+        div {display :inline-block;}
+        .circle {border-radius: 50%; width: 20px; height: 20px; position: absolute; margin: 2px 0px 0px 4px;}
+        .bronze {background-color : #cc6633;}
+        .silver {background-color : silver;}
+        .gold {background-color : goldenrod;}
+        .platinum {background-color : #2655ad;}
+        .diamond {background-color : #8fe6fa;}
+        .kd-pos {color : green;}
+        .kd-neg {color: red;}
+        th {text-align: center}
+        .arrow { margin-left: 15px; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; }
+        .arrow-down { border-top: 15px solid red; }
+        .arrow-up { border-bottom: 15px solid green; }
+    </style>
+</head>
+<body>
+    <a class="btn btn-outline-primary" href="#item1">Level </a>
+    <a class="btn btn-outline-primary" href="#item2">Game levels </a>
+    <a class="btn btn-outline-primary" href="#item3">Game details </a>
+    <div class="items">
+        <table id="item1" class="table table-striped">
+            <thead>
+                <tr>
+                    RANK
+                </tr>
+            </thead>
+            <tbody>
+                NBRANK
+            </tbody>
+        </table>
+        <table id="item2" class="table table-striped">
+            <thead>
+                <tr>
+                    GAMELEVEL
+                </tr>
+            </thead>
+            <tbody>
+                LEVELDETAIL
+            </tbody>
+        <table id="item3" class="table">
+            <thead>
+                <tr>
+                    GAME
+                </tr>
+            </thead>
+            <tbody>
+                DETAIL
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
